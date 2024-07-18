@@ -18,9 +18,8 @@ import (
 
 func main() {
 
-	// Check if a parameter was provided
 	if len(os.Args) < 2 {
-		fmt.Println("Please provide a param:")
+		fmt.Println("Please provide an argument:")
 		fmt.Println("models - list all models available in AWS Bedrock")
 		fmt.Println("claude - run a sample with Claude")
 		return
